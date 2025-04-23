@@ -22,4 +22,14 @@ int main ()
     cin >> age;
     cout << "You are " << age << " years old." << endl;
     
+    cout << (3<<2) << endl; // Left shift operator
+
+    int a=5;
+    int b=a++;
+    cout<<b <<endl; // b=5
+    cout<<a <<endl; // a=6
+
+
+    int h=-4;
+    cout << (h>=0 ? "Positive" : "Negative") << endl; // Ternary operator
 }
